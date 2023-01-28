@@ -6,46 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Salão Afro Girls</title>
-    <link rel="stylesheet" href="style-home.css">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Dancing+Script:wght@500;600;700&family=Kaushan+Script&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pinyon+Script&family=Work+Sans:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <h1 class="titulo-principal">Salão Afro Girls</h1>
+        <div class="caixa">
+            <img class="logo" src="imagens/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <img id="banner" src="imagens/banner.png" alt="banner com mulher negra">
+    <img class="banner" src="imagens/banner.png" alt="banner com mulher negra">
 
-    <div class="principal">
-        <h2 class="titulo-centralizado">Sobre o Afro Girls</h2>
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre o Afro Girls</h2>
+            <img src="imagens/tesoura.jpg" alt="imagen de tesoura" class="utensilios">
 
-        <p>Localizado no coração da cidade o <strong> Salão Afro Girls </strong>trás para o
-            mercado o que há de melhor para
-            o seu cabelo.Fundado em 2023, o salão já é destaque na cidade e conquista novos clientes a cada dia.
-        </p>
+            <p>Localizado no coração da cidade o <strong> Salão Afro Girls </strong>trás para o
+                mercado o que há de melhor para
+                o seu cabelo.Fundado em 2023, o salão já é destaque na cidade e conquista novos clientes a cada dia.
+            </p>
 
-        <p id="missao"><em>Nossa missão é:<strong>"Proporcionar auto-estima e
-                    qualidade de vida as nossas
-                    clientes."
-            </em></strong></p>
+            <p id="missao"><em>Nossa missão é:<strong>"Proporcionar auto-estima e
+                        qualidade de vida as nossas
+                        clientes."
+                </em></strong></p>
 
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O
-            atendimento possui padrão de
-            excelência
-            e agilidade, garantindo qualidade e satisfação das nossas clientes.
-        </p>
-    </div>
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O
+                atendimento possui padrão de
+                excelência
+                e agilidade, garantindo qualidade e satisfação das nossas clientes.
+            </p>
+            </div>
 
-    <div class="beneficios">
-        <h3 class="titulo-centralizado">Benefícios</h3>
+            <section class="mapa">
+                <h3 class="titulo-principal">Nosso estabelecimento</h3>
+                <p>Nosso estabelecimento está localizado no centro de Olinda.</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126445.76721075868!2d-34.90286579034573!3d-7.95441381584521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scentro%20historico!5e0!3m2!1spt-BR!2sbr!4v1674840416589!5m2!1spt-BR!2sbr"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
 
-        <ul>
-            <li class="itens">Atendimento especializado</li>
-            <li class="itens">Espaço diferenciado</li>
-            <li class="itens">Localização</li>
-            <li class="itens">Profissionais Qualificados</li>
-        </ul>
-        <img class="imagembeneficios" src="imagens/imagen-beneficios.png">
-    </div>
+            <div class="beneficios">
+                <h3 class="titulo-principal">Benefícios</h3>
+
+                <div class="conteudo-beneficios"></div>
+                <ul class="lista-beneficios">
+                    <li class="itens">Atendimento especializado</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">Profissionais Qualificados</li>
+                    <li class="itens">Pontualidade</li>
+                    <li class="itens">Limpeza</li>
+                </ul><img class="imagem-beneficios" src="imagens/imagen-beneficios.png">
+            </div>
+            <div class="video">
+                <iframe src="videos/video-mulher-negra.mp4" width="560" height="315"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img class="imagen-footer" src="imagens/logo.png">
+        <p class="copyright">&copy; Copyright Salão Afro Girls </p>
+    </footer>
 </body>
 
 </html>
